@@ -1,0 +1,23 @@
+/* src/App.css */
+.app-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "body"
+    "footer";
+  grid-template-rows: auto auto 1fr auto; 
+  min-height: 100vh;
+  
+  /* ¡AQUÍ ESTÁ TU LÍMITE!
+    La página se adaptará, pero nunca se hará 
+    más estrecha que 360px.
+  */
+  min-width: 360px;
+}
+
+/* El resto de tus clases... */
+.app-header { grid-area: header; }
+.app-body { grid-area: body; }
+.app-nav { grid-area: nav; }
+.app-footer { grid-area: footer; }

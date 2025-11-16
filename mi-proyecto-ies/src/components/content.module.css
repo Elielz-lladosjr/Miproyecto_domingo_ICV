@@ -1,0 +1,6 @@
+/* src/components/content.module.css */
+.section-title {
+  border-bottom: 2px solid #0055a4;
+  padding-bottom: 5px;
+  margin-bottom: 1.5rem;
+}

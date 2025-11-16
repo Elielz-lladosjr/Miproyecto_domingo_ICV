@@ -1,0 +1,18 @@
+/* src/components/pie.module.css */
+.pie-wrapper {
+  background-color: #343a40; /* bg-dark de bootstrap */
+  color: white;
+  padding: 2.5rem 0;
+  font-size: 0.9rem;
+}
+
+.social-icon {
+  font-size: 1.7rem;
+  margin: 0 10px;
+  color: white;
+  transition: color 0.2s;
+}
+
+.social-icon:hover {
+  color: #0d6efd; /* Azul de bootstrap al pasar el ratón */
+}

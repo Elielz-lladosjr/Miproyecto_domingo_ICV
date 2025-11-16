@@ -1,0 +1,10 @@
+/* src/components/sidebar.module.css */
+.sidebar-wrapper {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  /* Hacemos que se quede "pegado" al hacer scroll */
+  position: sticky;
+  top: 20px; 
+}
