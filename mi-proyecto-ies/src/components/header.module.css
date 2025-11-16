@@ -1,8 +1,5 @@
-/* src/components/header.module.css */
 .header-wrapper {
-  /* Esta es la ruta a tu foto grande. 
-    Asegúrate de que es correcta ('/imagenes/iesCura.jpeg')
-  */
+
   background-image: url('/images/iesCura.jpeg'); 
   background-size: cover;
   background-position: center;
@@ -10,17 +7,16 @@
   text-align: center;
   color: white;
   
-  /* Sombra para que el texto se lea sobre la foto */
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); 
 }
 
 .title {
-  font-size: 2.8rem; /* Un poco más grande */
+  font-size: 2.8rem; 
   font-weight: 700;
   margin: 0;
 }
 
 .subtitle {
-  font-size: 1.3rem; /* Un poco más grande */
+  font-size: 1.3rem; 
   margin: 0;
 }

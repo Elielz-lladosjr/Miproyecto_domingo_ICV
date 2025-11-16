@@ -1,10 +1,8 @@
-// src/components/Navigation.tsx
 import React from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import styles from './navigation.module.css';
 
 const Navigation = () => {
-  // Los 3 campos de tu tarea
   const navItems = [
     { name: 'Inicio', icon: 'bi-house-door-fill' },
     { name: 'Servicios', icon: 'bi-grid-fill' },

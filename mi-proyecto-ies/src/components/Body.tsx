@@ -1,7 +1,6 @@
-// src/components/Body.tsx
 import React from 'react';
-import Sidebar from './Sidebar';   // <-- NUEVO
-import Content from './Content';   // <-- NUEVO
+import Sidebar from './Sidebar';   
+import Content from './Content';   
 import styles from './body.module.css';
 
 const Body = () => {

@@ -33,12 +33,8 @@ const Sidebar = () => {
       />
       
       <p className="fw-bold">Vídeo de YouTube:</p>
-      
-      {/* Usamos la clase 'ratio' de Bootstrap para el tamaño adaptable */}
       <div className="ratio ratio-16x9">
         <iframe 
-          // --- ¡¡LA PRUEBA DEFINITIVA!! ---
-          // "Big Buck Bunny", un vídeo de código abierto que SÍ funciona
           src="https://www.youtube.com/embed/aqz-KE-bpKQ" 
           title="Big Buck Bunny (Official)" 
           allowFullScreen>

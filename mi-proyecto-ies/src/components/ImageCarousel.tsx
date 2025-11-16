@@ -1,16 +1,13 @@
-// src/components/ImageCarousel.tsx
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import styles from './imageCarousel.module.css'; // Importa sus propios estilos
-
-// Las imágenes de Andalucía que tienes en /public/imagenes
+import styles from './imageCarousel.module.css'; 
 const carouselImages = [
   { 
     img: '/images/sevilla.jpg',
     label: 'Sevilla'
   },
   { 
-    img: '/images/malaga.jpg', // Asumo que tienes esta imagen
+    img: '/images/malaga.jpg', 
     label: 'Malaga'
   },
   { 
@@ -21,7 +18,6 @@ const carouselImages = [
 
 const ImageCarousel = () => {
   return (
-    // interval={3000} hace que cambie cada 3 segundos
     <Carousel interval={3000} fade> 
       {carouselImages.map((item) => (
         <Carousel.Item key={item.label}>
@@ -29,7 +25,6 @@ const ImageCarousel = () => {
             className="d-block w-100"
             src={item.img}
             alt={item.label}
-            // Añadimos estilos en línea para que la imagen no sea gigante
             style={{height: '500px', objectFit: 'cover', background: '#ddd'}}
           />
           <Carousel.Caption>
@@ -41,5 +36,4 @@ const ImageCarousel = () => {
   );
 };
 
-// ¡ESTA LÍNEA ES LA MÁS IMPORTANTE!
 export default ImageCarousel;
